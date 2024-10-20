@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppinsBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#tempLogo {
+  cursor: pointer;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: #2e2e2e;
+  background-color: white;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.navbar .navItemsContainer {
+  display: flex;
+  gap: 60px;
+  padding: 10px;
+}
+
+.navbar .navItemsContainer .navItemLink {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.navbar .navItemsContainer .navItemLink:focus {
+  color: #f8b62d;
+}
+
+.navbar .navIconsDiv .gitHubIconDiv #gitHubIconImg {
+  width: 35px;
+}
+
+.navbar .navIconsDiv #sunIconImg,
+.navbar .navIconsDiv #moonIconImg {
+  width: 45px;
+}
+
+.navbar .navIconsDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+body.darkMode{
+  background-color: #0f1331;
+  color: white;
+}
+
+/* 
+body.lightMode,
+.navbar.lightMode{
+  background-color: white;
+  color: #2e2e2e;
+} */
